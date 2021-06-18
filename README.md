@@ -3,7 +3,7 @@
 
 ## API Routes:
 
-- /shorter -> short url
+- /shorten -> short url
 - /domain -> get all urls
 - /:id -> get url by id
 - /health -> health check api

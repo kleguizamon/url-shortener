@@ -36,7 +36,7 @@ class UrlController {
 				if (url) {
 					res.status(208).json('The URL already exist!');
 				} else {
-					const shortUrl = baseUrl + '/' + urlCode;
+					const shortUrl = `${baseUrl}/${urlCode}`;
 					//Generate object for mongoDB
 					url = {
 						longUrl,
